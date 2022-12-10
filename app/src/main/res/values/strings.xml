@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BaseBall</string>
+    <string name="intro">야구에 관련된 페이지에 오신 걸 환영합니다!</string>
+    <string name="KIAintro">KIA 페이지에 오신 걸 환영합니다.</string>
+</resources>

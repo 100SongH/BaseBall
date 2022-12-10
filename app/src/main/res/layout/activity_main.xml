@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:gravity="center"
+        android:text="@string/intro"
+        android:textColor="#333333"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/all"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_columnSpan="2"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/round_button"
+        android:text="전체 선수"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/SSG"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:text="SSG"
+        app:layout_constraintBottom_toTopOf="@+id/NC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/all"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <Button
+        android:id="@+id/Kiwoom"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:text="키움"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/LG"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <Button
+        android:id="@+id/LG"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/round_button"
+        android:text="LG"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <Button
+        android:id="@+id/KT"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:text="KT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/KIA"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/all"
+        app:layout_constraintVertical_bias="0.391" />
+
+    <Button
+        android:id="@+id/KIA"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="84dp"
+        android:background="@drawable/round_button"
+        android:text="KIA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/all"
+        app:layout_constraintVertical_bias="0.391" />
+
+    <Button
+        android:id="@+id/NC"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:text="NC"
+        app:layout_constraintBottom_toTopOf="@+id/Doosan"
+        app:layout_constraintEnd_toStartOf="@+id/Lotte"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toEndOf="@+id/Samsung"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.864" />
+
+    <Button
+        android:id="@+id/Samsung"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:text="삼성"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Lotte"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <Button
+        android:id="@+id/Lotte"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:text="롯데"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <Button
+        android:id="@+id/Doosan"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:text="두산"
+        app:layout_constraintBottom_toTopOf="@+id/Hanwha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.967" />
+
+    <Button
+        android:id="@+id/Hanwha"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:text="한화"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.906" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
