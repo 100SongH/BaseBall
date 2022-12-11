@@ -19,54 +19,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.SSG.setOnClickListener {
-            val intent = Intent(this, SSGPage::class.java)
-            startActivity(intent)
-        }
 
-        binding.Kiwoom.setOnClickListener {
-            val intent = Intent(this, KiwoomPage::class.java)
-            startActivity(intent)
-        }
-
-        binding.LG.setOnClickListener {
-            val intent = Intent(this, LGPage::class.java)
-            startActivity(intent)
-        }
-
-        binding.KT.setOnClickListener {
-            val intent = Intent(this, KTPage::class.java)
-            startActivity(intent)
-        }
 
         binding.KIA.setOnClickListener {
             val intent = Intent(this, KIAPage::class.java)
             startActivity(intent)
         }
 
-        binding.NC.setOnClickListener {
-            val intent = Intent(this, NCPage::class.java)
-            startActivity(intent)
-        }
-
-        binding.Samsung.setOnClickListener {
-            val intent = Intent(this, SamsungPage::class.java)
-            startActivity(intent)
-        }
-
-        binding.Lotte.setOnClickListener {
-            val intent = Intent(this, LottePage::class.java)
-            startActivity(intent)
-        }
-
-        binding.Doosan.setOnClickListener {
-            val intent = Intent(this, DoosanPage::class.java)
-            startActivity(intent)
-        }
-
-        binding.Hanwha.setOnClickListener {
-            val intent = Intent(this, HanwhaPage::class.java)
-            startActivity(intent)
-        }
     }
 }

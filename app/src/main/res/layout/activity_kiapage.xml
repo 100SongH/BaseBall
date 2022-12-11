@@ -5,17 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".KIAPage"
-    android:orientation="horizontal">
+    android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:gravity="center"
         android:text="@string/KIAintro"
-        android:textColor="#333333"
-        android:textSize="15sp"  />
+        android:textColor="#222222"
+        android:textSize="15sp"
+        android:background="#cceeff" />
 
     <TabHost
-        android:id="@+id/tabHost"
+        android:id="@+id/tabHost1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp">
@@ -35,8 +36,8 @@
 
             <FrameLayout
                 android:id="@android:id/tabcontent"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal">
 
                 <LinearLayout
@@ -45,7 +46,232 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <GridLayout
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/kia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:rowCount="4"
+                            android:columnCount="3"
+                            android:orientation="horizontal">
 
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/Rank5.1"
+                                    android:layout_width="110dp"
+                                    android:layout_height="130dp"
+
+                                    android:background="@android:color/transparent"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/r5_1" />
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No 5. 김도영"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/Rank5.2"
+                                    android:layout_width="110dp"
+                                    android:layout_height="130dp"
+                                    android:background="@android:color/transparent"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/r5_2" />
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No 3. 김선빈"
+                                    android:textSize="18sp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/Rank5.3"
+                                    android:layout_width="110dp"
+                                    android:layout_height="130dp"
+                                    android:background="@android:color/transparent"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/r5_3" />
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No 47. 나성범"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/Rank5.4"
+                                    android:layout_width="110dp"
+                                    android:layout_height="130dp"
+                                    android:background="@android:color/transparent"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/r5_4" />
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No 8. 류지혁"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/Rank5.5"
+                                    android:layout_width="110dp"
+                                    android:layout_height="130dp"
+                                    android:background="@android:color/transparent"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/r5_5" />
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No 10. 박동원"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/Rank5.6"
+                                    android:layout_width="110dp"
+                                    android:layout_height="130dp"
+                                    android:background="@android:color/transparent"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/r5_6" />
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No 1. 박찬호"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/Rank5.7"
+                                    android:layout_width="110dp"
+                                    android:layout_height="130dp"
+                                    android:background="@android:color/transparent"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/r5_7" />
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No 30. 소크라테스"
+                                    android:textSize="13sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/Rank5.8"
+                                    android:layout_width="110dp"
+                                    android:layout_height="130dp"
+                                    android:background="@android:color/transparent"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/r5_8" />
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No 66. 이창진"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/Rank5.9"
+                                    android:layout_width="110dp"
+                                    android:layout_height="130dp"
+                                    android:background="@android:color/transparent"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/r5_9" />
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No 34. 최형우"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/Rank5.10"
+                                    android:layout_width="110dp"
+                                    android:layout_height="130dp"
+                                    android:background="@android:color/transparent"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/r5_10" />
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No 52. 황대인"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+                        </GridLayout>
+
+                    </ScrollView>
 
                 </LinearLayout>
 
@@ -53,19 +279,59 @@
                     android:id="@+id/tab2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_margin="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="창단 : 1982년 1월 30일"
+                        android:textColor="#333333"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="10dp"/>
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="우승 : 11번"
+                        android:textStyle="bold"
+                        android:textColor="#333333"
+                        android:textSize="30sp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1983년, 1986년 ~ 1989년, 1991년, 1993년,\n1996년 ~ 1997년, 2009년, 2017년"
+                        android:textColor="#333333"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="20dp"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="구단명 변천 : 해태 타이거즈 (1982 ~ 2001)\n\t-> KIA 타이거즈 (2001 ~ )"
+                        android:textColor="#333333"
+                        android:textSize="17sp"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="경기장 : 광주 - 기아 챔피언스 필드"
+                        android:textColor="#333333"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="단장 : 장정석\n감독 : 김종국(74)"
+                        android:textColor="#333333"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="10dp"/>
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:id="@+id/tab3"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
-                </LinearLayout>
             </FrameLayout>
         </LinearLayout>
     </TabHost>
