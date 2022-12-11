@@ -53,5 +53,6 @@
 
 
 #### 홈페이지 버튼 클릭 시
-![image](https://user-images.githubusercontent.com/88391162/206900877-5025a5ba-e513-447a-8d25-f2abfc3ca1a5.png)
 인터넷 창으로 
+![image](https://user-images.githubusercontent.com/88391162/206900877-5025a5ba-e513-447a-8d25-f2abfc3ca1a5.png)
+
